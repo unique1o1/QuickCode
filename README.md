@@ -12,9 +12,11 @@ Use pip to install it as follow:
         $ sudo pip install howdoi
 
 ---
+
 # Installation
-   Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
-   
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
         ext install yunikmaha.quickcode
 
 # Installation for development mode
@@ -24,4 +26,5 @@ Use pip to install it as follow:
         $ npm install
 
 # How to use
-       Type your desire query and select it. Press Ctrl+Shift+P and search for QuickCode and press enter
+
+       Type your desire query and select it. Press `Ctrl+Shift+Q` to get the Code
