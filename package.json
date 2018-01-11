@@ -2,12 +2,12 @@
   "name": "quickcode",
   "displayName": "quickCode",
   "description": "Quickly paste code from Stackoverflow",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "yunikmaha",
   "engines": {
     "vscode": "^1.19.0"
   },
-  "categories": ["Other"],
+  "categories": ["Other", "Languages", "Snippets"],
   "activationEvents": ["onCommand:extension.quickcode"],
   "main": "./src/extension",
   "contributes": {
