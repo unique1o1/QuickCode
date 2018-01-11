@@ -27,4 +27,4 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 
 # How to use
 
-       Type your desire query and select it. Press `Ctrl+Shift+Q` to get the Code
+Type your desire query and select it. Press `Ctrl+Shift+Q` to get the Code
