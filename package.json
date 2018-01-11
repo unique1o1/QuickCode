@@ -18,6 +18,11 @@
       }
     ]
   },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#AF47C1",
+    "theme": "dark"
+  },
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "node ./node_modules/vscode/bin/test"
