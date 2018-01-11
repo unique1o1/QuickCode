@@ -23,21 +23,27 @@ function activate(context) {
         // No open text editor
       }
       var selection = editor.selection;
-      var text =
-        editor.document.getText(selection) +
-        " in " +
-        editor.document.languageId;
-      var how = `howdoi "${text}"`;
-      // Run howdoi command on the shell
-      cp.exec(how, (err, ans) => {
-        if (err) {
-          throw err;
-        }
+      if (editor.document.getText(selection).length < 1) {
+        vscode.window.showInformationMessage(
+          "Please select a sentence for QuickCode to work!!!"
+        );
+      } else {
+        var text =
+          editor.document.getText(selection) +
+          " in " +
+          editor.document.languageId;
+        var how = `howdoi "${text}"`;
+        // Run howdoi command on the shell
+        cp.exec(how, (err, ans) => {
+          if (err) {
+            throw err;
+          }
 
-        editor.edit(editBuilder => {
-          editBuilder.replace(selection, ans);
+          editor.edit(editBuilder => {
+            editBuilder.replace(selection, ans);
+          });
         });
-      });
+      }
     }
   );
 
