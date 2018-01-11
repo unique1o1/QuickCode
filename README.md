@@ -4,14 +4,12 @@ QuickCode is an VSCode extension which makes searching for code on Stackoverflow
 
 ![GIF](https://i.imgur.com/wbxB2Q8.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
 ## Requirements
 
 You must have `howdoi` installed on your computer.
 Use pip to install it as follow:
 
-        sudo pip install howdoi
+        $ sudo pip install howdoi
 
 ---
 
