@@ -12,9 +12,14 @@ Use pip to install it as follow:
         $ sudo pip install howdoi
 
 ---
-
 # Installation
+   Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+   
+        ext install yunikmaha.quickcode
+
+# Installation for development mode
 
         $ git clone https://github.com/unique1o1/QuickCode
         $ cd QuickCode
         $ npm install
+
