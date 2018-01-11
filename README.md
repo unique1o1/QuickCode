@@ -23,3 +23,5 @@ Use pip to install it as follow:
         $ cd QuickCode
         $ npm install
 
+# How to use
+       Type your desire query and select it. Press Ctrl+Shift+P and search for QuickCode and press enter
