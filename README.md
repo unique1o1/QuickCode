@@ -34,5 +34,4 @@ Type your desire query and select it. Press `Ctrl+Shift+Q` to get the Code for t
 Feel free to [Open an issue](https://github.com/unique1o1/QuickCode/issues).
 
 ### License
-
-## MIT © 2018 unique1o1
+MIT © 2018 unique1o1
