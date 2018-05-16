@@ -28,3 +28,10 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 # How to use
 
 Type your desire query and select it. Press `Ctrl+Shift+Q` to get the Code for the current programming language you are working on
+
+## Contribute
+
+Feel free to [Open an issue](https://github.com/unique1o1/QuickCode/issues).
+
+### License
+MIT © 2018 unique1o1
