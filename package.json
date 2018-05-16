@@ -7,8 +7,14 @@
   "engines": {
     "vscode": "^1.19.0"
   },
-  "categories": ["Other", "Languages", "Snippets"],
-  "activationEvents": ["onCommand:extension.quickcode"],
+  "categories": [
+    "Other",
+    "Languages",
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:extension.quickcode"
+  ],
   "main": "./src/extension",
   "contributes": {
     "commands": [
@@ -34,13 +40,13 @@
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.42",
-    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^7.0.64",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-latest": "^6.24.1",
-    "eslint": "^4.6.1",
-    "typescript": "^2.6.1",
-    "vscode": "^1.1.6"
+    "eslint": "^4.19.1",
+    "typescript": "^2.8.3",
+    "vscode": "^1.1.17"
   }
 }
